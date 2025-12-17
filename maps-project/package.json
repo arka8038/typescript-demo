@@ -1,9 +1,15 @@
 {
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
   "dependencies": {
     "@faker-js/faker": "^10.0.0",
+    "@googlemaps/js-api-loader": "^2.0.2",
     "@types/faker": "^6.6.11"
   },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "typescript": "^5.9.2"
   }
 }
